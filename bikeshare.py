@@ -112,7 +112,7 @@ def main():
         user_stats(df)
         print(df.head())
         print("\nThese are the first five lines of data for your request.")
-        i = 5
+        i = 6
         while i <= df.shape[0]:
             if_more_data = input('\n Do you want more five lines of datas? Enter yes or no.\n')
             if if_more_data.lower() == 'yes':
