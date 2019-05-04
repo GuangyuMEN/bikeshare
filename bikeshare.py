@@ -7,7 +7,7 @@ import math
 import time
 import pandas as pd
 import matplotlib.pyplot as plt
-CITY_DATA = { 'chicago': 'chicago.csv',
+CITY_DATA = { 'paris': 'paris.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 months = ["all", "january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"]
